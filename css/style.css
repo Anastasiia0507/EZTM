@@ -143,6 +143,7 @@ body {
   text-align: center;
   font-size: 3rem;
   padding-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .avantage_container_1{
@@ -201,7 +202,7 @@ body {
 .titre_2{
   color: white;
   position: relative;
-  font-size: 2.1rem;
+  font-size: 2rem;
   margin: auto;
   width: 60%;
   padding: 15px;
@@ -210,7 +211,7 @@ body {
 .p_2{
   color: white;
   width: 80%;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin: auto;
 }
 
@@ -241,7 +242,7 @@ body {
 .p_3{
   color: white;
   width: 80%;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin: auto;
   margin-top: 45px;
 }
@@ -279,7 +280,7 @@ body {
 .p_4{
   color: white;
   width: 80%;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin: auto;
   margin-top: 35px;
 }
@@ -311,7 +312,7 @@ body {
 .p_5{
   color: white;
   width: 80%;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin: auto;
   margin-top: 35px;
 }
@@ -343,7 +344,7 @@ body {
 .p_6{
   color: white;
   width: 80%;
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin: auto;
   margin-top: 35px;
 }
@@ -392,6 +393,12 @@ h1 {
 
 h2 {
   color: #FDD100;
+}
+
+h3 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #F2EEE2;
 }
 
 .ml_container {
