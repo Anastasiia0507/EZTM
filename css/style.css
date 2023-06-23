@@ -4,6 +4,7 @@
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
+  background-color: #10100F;
 }
 
 @font-face {
@@ -333,6 +334,44 @@ body {
   }
 }
 
-.ml_container {
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  color: #F2EEE2;
+}
 
+h2 {
+  color: #FDD100;
+}
+
+.ml_container {
+  margin-top: 120px;
+}
+
+.p_m1 {
+  color: #F2EEE2;
+  font-size: 24px;
+  font-family: "Montserrat";
+  line-height: 32px;
+  margin-top: 16px;
+}
+
+.ml {
+  margin-left: 163px;
+  width: 1394px;
+  margin-top: 40px;
+}
+
+.footer {
+  width: 1680px;
+  height: 538px;
+  border-radius: 32px 32px 0px 0px;
+  border: 1px solid #6D5B01;
+  color: #F2EEE2;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 120px;
+  margin-top: 120px;
 }
