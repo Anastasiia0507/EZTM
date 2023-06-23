@@ -1,22 +1,22 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+}
+
 *{
   margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
   box-sizing: border-box;
-  background-color: #10100F;
-}
-
-@font-face {
   font-family: "Montserrat";
-  src: url("../fonts/Montserrat-VariableFont_wght.ttf");
 }
 
 /* Styles de base */
 body {
   padding: 0;
   margin: 0;
-  font-family: "Montserrat";
+  background-color: #10100F;
 }
 
 .header_nav {
@@ -84,6 +84,7 @@ body {
 .navbar_container > ul:last-child ul li {
   cursor: pointer;
 }
+
 #demo_btn{
   background-color: #1F1E1B;
   color: #FDD100;
@@ -93,12 +94,14 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .header{
   position: absolute;
   top: 20px;
   left: 200px;
   width: 100%;
 }
+
 .header_titre{
   position: absolute;
   top: 150px;
@@ -106,9 +109,11 @@ body {
   font-size: 64px;
   color: white;
 }
+
 .jaune{
   color: #FDD100;
 }
+
 .header_p{
   position: absolute;
   top: 320px;
@@ -116,6 +121,7 @@ body {
   font-size: 24px;
   color: white;
 }
+
 .header_button{
   position: absolute;
   top: 400px;
@@ -127,6 +133,7 @@ body {
   padding-left: 20px;
   padding-right: 20px;
 }
+
 .avantages{
   background-color: black;
 }
@@ -137,12 +144,14 @@ body {
   font-size: 3rem;
   padding-bottom: 10px;
 }
+
 .avantage_container_1{
   display: flex;
   width: 120rem;
   height: 55rem;
   margin-top: 20px;
 }
+
 .avantage_1{
   border: 1px solid #FDD100;
   border-radius: 10px;
@@ -152,10 +161,12 @@ body {
   margin-left: 25px;
   padding: 15px;
 }
+
 .img_1{
   width: 20%;
   margin: auto;
 }
+
 .titre_1{
   color: white;
   position: relative;
@@ -164,12 +175,14 @@ body {
   width: 60%;
   padding: 15px;
 }
+
 .p_1{
   color: white;
   width: 80%;
   font-size: 1.5rem;
   margin: auto;
 }
+
 .avantage_2{
   border: 1px solid #FDD100;
   border-radius: 10px;
@@ -179,10 +192,12 @@ body {
   margin-left: 25px;
   padding: 15px;
 }
+
 .img_2{
   margin: auto;
   width: 20%;
 }
+
 .titre_2{
   color: white;
   position: relative;
@@ -191,12 +206,14 @@ body {
   width: 60%;
   padding: 15px;
 }
+
 .p_2{
   color: white;
   width: 80%;
   font-size: 1.7rem;
   margin: auto;
 }
+
 .avantage_3{
   border: 1px solid #FDD100;
   border-radius: 10px;
@@ -206,10 +223,12 @@ body {
   margin-left: 25px;
   padding: 15px;
 }
+
 .img_3{
   margin: auto;
   width: 20%;
 }
+
 .titre_3{
   color: white;
   position: relative;
@@ -218,6 +237,7 @@ body {
   width: 60%;
   padding: 15px;
 }
+
 .p_3{
   color: white;
   width: 80%;
@@ -225,11 +245,13 @@ body {
   margin: auto;
   margin-top: 45px;
 }
+
 .avantage_container_2{
   display: flex;
   width: 120rem;
   height: 55rem;
 }
+
 .avantage_4{
   border: 1px solid #FDD100;
   border-radius: 10px;
@@ -239,10 +261,12 @@ body {
   margin-left: 25px;
   padding: 15px;
 }
+
 .img_4{
   margin: auto;
   width: 20%;
 }
+
 .titre_4{
   color: white;
   position: relative;
@@ -251,6 +275,7 @@ body {
   width: 60%;
   padding: 15px;
 }
+
 .p_4{
   color: white;
   width: 80%;
@@ -258,6 +283,7 @@ body {
   margin: auto;
   margin-top: 35px;
 }
+
 .avantage_5{
   border: 1px solid #FDD100;
   border-radius: 10px;
@@ -267,10 +293,12 @@ body {
   margin-left: 25px;
   padding: 15px;
 }
+
 .img_5{
   margin: auto;
   width: 20%;
 }
+
 .titre_5{
   color: white;
   position: relative;
@@ -279,6 +307,7 @@ body {
   width: 60%;
   padding: 15px;
 }
+
 .p_5{
   color: white;
   width: 80%;
@@ -286,6 +315,7 @@ body {
   margin: auto;
   margin-top: 35px;
 }
+
 .avantage_6{
   border: 1px solid #FDD100;
   border-radius: 10px;
@@ -295,10 +325,12 @@ body {
   margin-left: 25px;
   padding: 15px;
 }
+
 .img_6{
   margin: auto;
   width: 20%;
 }
+
 .titre_6{
   color: white;
   position: relative;
@@ -307,12 +339,30 @@ body {
   width: 60%;
   padding: 15px;
 }
+
 .p_6{
   color: white;
   width: 80%;
   font-size: 1.7rem;
   margin: auto;
   margin-top: 35px;
+}
+
+.btn {
+  display: inline-flex;
+  padding: 20px 56px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 56px;
+  background: linear-gradient(151deg, #FDD100 0%, #EDB021 100%);
+  color: #0A0A09;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0.8px;
 }
 
 .footer_button {
@@ -348,12 +398,17 @@ h2 {
   margin-top: 120px;
 }
 
-.p_m1 {
+.p_ml {
   color: #F2EEE2;
   font-size: 24px;
   font-family: "Montserrat";
   line-height: 32px;
   margin-top: 16px;
+}
+
+.h_ml {
+  text-align: center;
+  text-transform: uppercase;
 }
 
 .ml {
@@ -367,6 +422,7 @@ h2 {
   height: 538px;
   border-radius: 32px 32px 0px 0px;
   border: 1px solid #6D5B01;
+  background-color: #0A0A09;
   color: #F2EEE2;
   text-decoration: none;
   display: flex;
