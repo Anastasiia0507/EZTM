@@ -3,4 +3,6 @@
 
 Anastasiia is beautiful and smart
 
-she have 39 yo and shis beautiful
+She have 39 yo and she is beautiful
+
+SHE IS SINGLE!!!!!
