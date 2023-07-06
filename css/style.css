@@ -550,6 +550,10 @@ input[name="r"] {
    align-items: center;
    display: flex;
  }
+
+ .img_container:hover {
+  border: 1px solid #EDB021;
+ }
  
  #background_partners {
    position: absolute;
