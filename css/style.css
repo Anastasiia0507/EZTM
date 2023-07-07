@@ -398,8 +398,7 @@ input[name="r"] {
    width: 392px;
    line-height: 26px ;
    position: absolute;
-   z-index: 1;
-   
+   z-index: 1; 
  }
  
  .card_container3 {
@@ -639,19 +638,23 @@ textarea {
   border: 1px solid #6D5B01;
   background-color: #0A0A09;
   color: #F2EEE2;
-  text-decoration: none;
+  text-decoration: none; 
   display: flex;
+  flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
   margin-left: 120px;
   margin-top: 120px;
 }
 
-.footer_titre{
+.footer_titre {
   margin: auto;
+  left: 53rem;
+  top: 447rem;
 }
 
-.footer_button{
+.footer_button {
   left: 100rem;
   top: 400rem;
   background-color: #1F1E1B;
@@ -664,14 +667,24 @@ textarea {
   height: 60px;
 }
 
+.footer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
 /* Footer - fin */
 
 .faq-title h2 {
-position: relative;
-margin-bottom: 45px;
-display: inline-block;
-font-weight: 600;
-line-height: 1;
+  position: relative;
+  margin-bottom: 45px;
+  display: inline-block;
+  font-weight: 600;
+  line-height: 1;
 }
 
 .faq-title h2::before {
@@ -684,6 +697,7 @@ line-height: 1;
   bottom: -25px;
   margin-left: -30px;
 }
+
 .faq-title p {
 padding: 0 190px;
 margin-bottom: 10px;
@@ -714,6 +728,7 @@ transition: all 0.3s ease 0s;
   background: rgba(233, 30, 99, 0.1);
   padding-left: 10px;
 }
+
 .faq_test .card .card-header .faq-title {
 width: 100%;
 text-align: left;
@@ -770,8 +785,33 @@ margin-bottom: 14px;
 .faq_test {
   margin-bottom: 30px;
 }
+
 .faq_test .card .card-header .faq-title {
   line-height: 26px;
   margin-top: 10px;
 }
+}
+
+.first{
+  display: flex;
+  gap: 10rem;
+  /* position: absolute; */
+  /* align-items: center;
+  justify-content: space-around; */
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  /* left: 25rem;
+  top: 452rem; */
+}
+
+.second{
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
+
+.phone, .mail{
+  display: flex;
+  flex-direction: row;
 }
