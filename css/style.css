@@ -653,22 +653,28 @@ textarea {
   letter-spacing: 0.8px;
   text-transform: uppercase;
   }
-  .footer {
+   .footer {
   width: 1680px;
   height: 538px;
   border-radius: 32px 32px 0px 0px;
   border: 1px solid #6D5B01;
   background-color: #0A0A09;
   color: #F2EEE2;
-  text-decoration: none;
+  text-decoration: none; 
   display: flex;
+  flex-direction: column;
+  text-align: center;
   align-items: center;
   justify-content: center;
   margin-left: 120px;
   margin-top: 120px;
+
 }
 .footer_titre{
   margin: auto;
+
+  left: 53rem;
+  top: 447rem;
 }
 .footer_button{
   left: 100rem;
@@ -679,6 +685,36 @@ textarea {
   border-radius: 24px;
   position: absolute;
 }
+.footer_container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 30px;
+  text-decoration: none;
 
+}
+.first{
+  display: flex;
+  gap: 10rem;
+  /* position: absolute; */
+  /* align-items: center;
+  justify-content: space-around; */
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  /* left: 25rem;
+  top: 452rem; */
+  
+}
+.second{
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
 
-
+.phone, .mail{
+  display: flex;
+  flex-direction: row;
+}
