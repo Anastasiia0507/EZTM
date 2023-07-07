@@ -378,7 +378,7 @@ input[name="r"] {
   justify-content: space-evenly;
   align-items: center;
   height: 716px;
- 
+
  }
  
  .arrow_circle1 {
@@ -575,6 +575,10 @@ input[name="r"] {
    justify-content: center;
    gap: 24px;
  }
+ 
+ .faq {
+   margin-top: 500px;
+ }
 
 .faq_list_1 {
   display: flex;
@@ -613,5 +617,55 @@ input[name="r"] {
   padding: 28px 32px;
 }
 
+.contact_container {
+  width: 820px;
+  margin-left : auto;
+  margin-right : auto;
+  display: block;
+  justify-content: space-evenly;
+  flex-direction: column wrap;
+  align-items: center;
+  border: 1px solid #FDD100;
+}
+
+input {
+  width: 820px;
+  height: 80px;
+  border-radius: 24px;
+  border: 1px solid #6D5B01;
+  background: #0A0A09;
+  font-size: 20px;
+  color: #DBD4BE;
+  margin-top: 16px;
+  padding-left: 10px;
+}
+
+textarea {
+  width: 820px;
+  height: 246px;
+  border-radius: 24px;
+  border: 1px solid #6D5B01;
+  background: #0A0A09;
+  font-size: 20px;
+  color: #DBD4BE;
+  margin-top: 16px;
+  padding: 10px ;
+}
+
+.contact_button {
+  height: 64px;
+  padding: 8px 64px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 56px;
+  border: 1px solid #FDD100;
+  background: #1F1E1B;
+  color: #FDD100;
+  margin-top: 16px;
+  margin-left: auto;
+  margin-right: auto;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  }
 
 
