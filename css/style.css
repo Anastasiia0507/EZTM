@@ -222,6 +222,18 @@ body {
   letter-spacing: 0.8px;
 }
 
+<<<<<<< Updated upstream
+=======
+.footer_button {
+  background-color: #1F1E1B;
+  border: 1px solid #FDD100;  
+  box-shadow: 8px 8px 16px 0px #000;
+  border-radius: 24px;
+  width: 60px;
+  height: 60px;
+}
+
+>>>>>>> Stashed changes
 @media (hover: hover) {
     .footer_button:hover {
     border: solid 2px #e2c610;
@@ -514,7 +526,13 @@ input[name="r"] {
    top: 3910px;
  }
 
+<<<<<<< Updated upstream
  /* FAQ - debut */
+=======
+.faq {
+  position: relative;
+}
+>>>>>>> Stashed changes
  
  .faq_list {
    position: relative;
@@ -581,12 +599,21 @@ input[name="r"] {
 
 .contact_container {
   width: 820px;
+<<<<<<< Updated upstream
   margin-left: auto;
   margin-right: auto;
   display: flex;
   flex-flow :column wrap;
   align-items: center;
   justify-content: center;
+=======
+  margin-left : auto;
+  margin-right : auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow : column wrap;
+>>>>>>> Stashed changes
 }
 
 input {
