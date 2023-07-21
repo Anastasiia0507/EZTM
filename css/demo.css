@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf");
+  }
+  
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Montserrat";
+    
+}
+
+body {
+    background-color:#10100F ;
+}
+
+.jaune {
+        color: #FDD100;
+}
+
+h1 {
+    font-size: 48px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 134px;
+    text-align: center;
+    color: white;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 32px;
+    margin-top: 32px;
+
+}
+
+input {
+    width: 1105px ;
+    height: 80px;
+    margin: auto;
+    border: 2px solid #6D5B01 ;
+    border-radius: 24px;
+    color: #DBD4BE;
+    background-color: #0A0A09;
+    padding-left: 10px;
+
+}
+
+select {
+    width: 400px;
+    height:44px;
+    flex-direction: row;
+    text-align: center;
+    border: 2px solid #6D5B01 ;
+    background-color: #0A0A09;
+    color: #DBD4BE;
+    border-radius: 24px;
+    padding: 8px;
+    margin: auto;
+
+}
+
+textarea {
+    width: 1105px;
+    margin: auto;
+    border: 2px solid #6D5B01 ;
+    background-color: #0A0A09;
+    color: #DBD4BE;
+    border-radius: 24px;
+    padding-left:  5px;
+    padding-top : 15px;
+}
+
+#btn_demo {
+    display: flex;
+    width: 310px;
+    height: 80px;
+    padding: 8px 56px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin: auto; 
+    border-radius: 56px;
+    border: 2px solid #6D5B01 ;
+    background-color: #0A0A09;
+    color: #FDD100;;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+
+
+

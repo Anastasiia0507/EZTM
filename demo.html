@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demande de démo</title>
+    <link rel="stylesheet" href="/css/demo.css">
+
+
+
+
+</head>
+<body>
+    <h1>Demandez <span class="jaune">votre démo</span></h1>
+
+    <form action="" method="post">
+        <input type="text" name="prenom" placeholder="Votre prénom :" autocomplete="given-name">
+        <input type="text" name="nom" placeholder="Votre nom :" autocomplete="family-name">
+        <input type="mail" name="email" placeholder="Votre e-mail @ :" autocomplete="email">
+        <input type="text" name="entreprise" placeholder="Votre entreprise :" autocomplete="organization">
+        <input type="tel" name="tel" placeholder="Votre téléphone :" autocomplete="tel">
+     
+        <select name="dispo" id="disponibilité-select">
+            <option value="">Disponibilité Horaire</option>
+            <option value="matin">Matin</option>
+            <option value="après-midi">Après-midi</option>
+            <option value="soirée">Soirée</option>
+        </select>
+
+        <select name="rappel" id="souhait-rappel">
+            <option value="">Souhait Rappel</option>
+            <option value="email">Email</option>
+            <option value="telephone">Téléphone</option>
+            <option value="texto">Message</option>
+            <option value="whatsapp">Whatsapp</option>
+        </select>
+
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre demande :"></textarea>
+
+        <button id="btn_demo">Envoyez</button>
+    </form>
+
+    <img src="" alt="">
+    
+</body>
+</html>
