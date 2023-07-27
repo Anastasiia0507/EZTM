@@ -776,6 +776,104 @@ a:hover {
 
 /* Footer - fin */
 
+/* Page démo */
+#demo_h1 {
+  font-size: 42px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 134px;
+  text-align: center;
+  color: white;
+}
+
+.form_demo {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 32px;
+  margin-top: 32px;
+
+}
+
+.input_demo {
+  width: 1105px ;
+  height: 80px;
+  margin: auto;
+  border: 2px solid #6D5B01 ;
+  border-radius: 24px;
+  color: #DBD4BE;
+  background-color: #0A0A09;
+  padding-left: 20px;
+  font-size: 18px;
+  
+
+}
+
+
+.select_container { 
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+width: 1130px;
+margin: 32px auto;
+}
+
+select {
+  width: 600px;
+  height:80px;
+  text-align: center;
+  border: 2px solid #6D5B01 ;
+  background-color: #0A0A09;
+  color: #DBD4BE;
+  border-radius: 18px;
+  padding-right: 10px;
+  font-size: 16px;
+  align-items: center;
+}
+
+#souhait-rappel {
+  margin-left: 20px;
+}
+
+
+.textarea_demo {
+  width: 1105px;
+  margin: auto;
+  border: 2px solid #6D5B01 ;
+  background-color: #0A0A09;
+  color: #DBD4BE;
+  border-radius: 24px;
+  padding-left:  25px;
+  padding-top : 25px;
+  position: relative;
+  font-size: 18px;
+}
+
+#btn_demo {
+    width: 310px;
+    height: 80px;
+    padding: 8px 56px;
+    justify-content: center;
+    gap: 8px;
+    margin: auto; 
+    border-radius: 56px;
+    border: 2px solid #6D5B01 ;
+    background-color: #0A0A09;
+    color: #FDD100;;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    position: relative;
+    align-items: center;
+    left: 42%;
+  }
+
+
+
+#demo_img {
+  width: 100%;
+  height: 760px;
+  margin-top: 32px;
+  
+}
 
 /*Politique_de_confidentialite*/
 
@@ -898,5 +996,7 @@ a:hover {
     background-color: #FDD100;
     filter: blur(150px);
   }
+
+
 
  

@@ -4,29 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Demande de démo</title>
-    <link rel="stylesheet" href="/css/demo.css">
+    <link rel="stylesheet" href="/css/style.css">
 
 
 
 
 </head>
 <body>
-    <h1>Demandez <span class="jaune">votre démo</span></h1>
+    <h1 id="demo_h1">Demandez <span class="jaune">votre démo</span></h1>
 
-    <form action="" method="post">
-        <input type="text" name="prenom" placeholder="Votre prénom :" autocomplete="given-name">
-        <input type="text" name="nom" placeholder="Votre nom :" autocomplete="family-name">
-        <input type="mail" name="email" placeholder="Votre e-mail @ :" autocomplete="email">
-        <input type="text" name="entreprise" placeholder="Votre entreprise :" autocomplete="organization">
-        <input type="tel" name="tel" placeholder="Votre téléphone :" autocomplete="tel">
+    <form class="form_demo" action="" method="post">
+        <input class="input_demo" type="text" name="prenom" placeholder="Prénom :" autocomplete="given-name">
+        <input class="input_demo" type="text" name="nom" placeholder="Nom :" autocomplete="family-name">
+        <input class="input_demo" type="mail" name="email" placeholder="E-mail @ :" autocomplete="email">
+        <input class="input_demo" type="text" name="entreprise" placeholder="Votre entreprise :" autocomplete="organization">
+        <input class="input_demo" type="tel" name="tel" placeholder="Téléphone :" autocomplete="tel">
      
-        <select name="dispo" id="disponibilité-select">
+        
+
+        <textarea class="textarea_demo" name="message" id="message" cols="30" rows="10" placeholder="Votre demande :"></textarea>
+        </form>
+        <div class="select_container">
+        <select name="dispo">
             <option value="">Disponibilité Horaire</option>
             <option value="matin">Matin</option>
             <option value="après-midi">Après-midi</option>
             <option value="soirée">Soirée</option>
         </select>
-
+        
+       
         <select name="rappel" id="souhait-rappel">
             <option value="">Souhait Rappel</option>
             <option value="email">Email</option>
@@ -34,13 +40,12 @@
             <option value="texto">Message</option>
             <option value="whatsapp">Whatsapp</option>
         </select>
-
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Votre demande :"></textarea>
-
+        </div>
+        
         <button id="btn_demo">Envoyez</button>
-    </form>
 
-    <img src="" alt="">
+        <img  id="demo_img" src="img/demo_background.png"  alt="Des personnes en salle de musculation">
     
+
 </body>
 </html>
