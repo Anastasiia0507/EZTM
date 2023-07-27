@@ -775,3 +775,128 @@ a:hover {
 }
 
 /* Footer - fin */
+
+
+/*Politique_de_confidentialite*/
+
+#h1_pdc {
+  text-align: center;
+  font-size: 48px;
+  text-transform: uppercase;
+  margin-bottom: 64px;
+  margin-top: 120px;
+}
+
+.pdc_container {
+  display: block;
+  flex-direction: column wrap;
+  margin-left: 10%;
+}
+
+.pdc_container_child {
+  width: 1394px;
+  
+}
+
+.h2_pdc {
+  margin-bottom: 8px;
+  line-height: 40px;
+  
+}
+
+.p_pdc {
+  color: white;
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 40px;
+  word-spacing: 5px;
+}
+
+.footer_button2 {
+  left: 100rem;
+  top: 140rem;
+  background-color: #1F1E1B;
+  border: 1px solid #FDD100;
+  box-shadow: 8px 8px 16px 0px #000;
+  border-radius: 24px;
+  position: absolute;
+  background-color: #202022;
+  width: 60px;
+  height: 60px;
+}
+.footer_pdc {
+  width: 1680px;
+  height: 538px;
+  border-radius: 32px 32px 0px 0px;
+  border: 1px solid #6D5B01;
+  background-color: #0A0A09;
+  color: #F2EEE2;
+  text-decoration: none; 
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-left: 110px;
+  margin-top: -170px;
+}
+
+.footer_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 30px;
+  text-decoration: none;
+}
+
+.first {
+  display: flex;
+  gap: 10rem;
+  /* position: absolute; */
+  /* align-items: center;
+  justify-content: space-around; */
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  /* left: 25rem;
+  top: 452rem; */
+}
+
+.second {
+  display: flex;
+  flex-direction: row;
+  gap: 10rem;
+}
+
+.phone, .mail {
+  display: flex;
+  flex-direction: row;
+}
+
+.third {
+  display: flex;
+  gap: 24px;
+}
+  /* Blur page de confidentialité */
+#blur {
+  width: 215px;
+  height: 215px;
+  position: absolute;
+  right: 10px;
+  background-color: #FDD100;
+  filter: blur(150px);
+}
+
+#blur2 {
+    width: 215px;
+    height: 215px;
+    position: relative;
+    left: 10px;
+    margin-top: 160px;
+    background-color: #FDD100;
+    filter: blur(150px);
+  }
+
+ 
