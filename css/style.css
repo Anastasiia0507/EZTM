@@ -10,6 +10,7 @@
   list-style: none;
   box-sizing: border-box;
   font-family: "Montserrat";
+  scroll-behavior:smooth;
 }
 
 h1 {
@@ -54,6 +55,10 @@ body {
   color: #F2EEE2;
   font-size: 24px;
   line-height: 32px;
+}
+
+li:hover {
+  color: #FDD100;
 }
 
 .navbar_container li {
@@ -103,6 +108,20 @@ body {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.8px;
+}
+
+#demo_btn:hover {
+  border-radius: 56px;
+  border: 1px solid #FDD100;
+  background: #1F1E1B;
+  box-shadow: 4px 4px 24px 0px rgba(253, 209, 1, 0.56);
+}
+
+#demo_btn:active {
+  border-radius: 56px;
+  border: 1px solid #FDD100;
+  background: #1F1E1B;
+  box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.58) inset;
 }
 
 .header {
@@ -220,6 +239,17 @@ body {
   font-weight: 700;
   line-height: 24px;
   letter-spacing: 0.8px;
+}
+
+.btn:hover {
+  background: linear-gradient(151deg, #FDD100 0%, #EDB021 100%);
+  box-shadow: 4px 4px 24px 0px rgba(253, 209, 1, 0.56);
+}
+
+.btn:active {
+  border-radius: 56px;
+  background: linear-gradient(151deg, #FDD100 0%, #EDB021 100%);
+  box-shadow: 4px 4px 8px 0px rgba(0, 0, 0, 0.48) inset;
 }
 
 .footer_button {
@@ -489,7 +519,7 @@ input[name="r"] {
  }
  
  .partners_container {
-   width: 1688px;
+   width: 1980px;
    height: auto;
    display: flex;
    flex-direction: row;
@@ -643,6 +673,20 @@ textarea {
   margin-right: auto;
   letter-spacing: 0.8px;
   text-transform: uppercase;
+}
+
+.contact_button:hover {
+  border-radius: 56px;
+  border: 1px solid #FDD100;
+  background: #1F1E1B;
+  box-shadow: 4px 4px 24px 0px rgba(253, 209, 1, 0.56);
+}
+
+.contact_button:active {
+  border-radius: 56px;
+  border: 1px solid #FDD100;
+  background: #1F1E1B;
+  box-shadow: 6px 6px 12px 0px rgba(0, 0, 0, 0.58) inset;
 }
 
 /* Footer _ début */
