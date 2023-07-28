@@ -10,11 +10,13 @@
     list-style: none;
     box-sizing: border-box;
     font-family: "Montserrat";
+    scroll-behavior:smooth;
   }
   
   h1 {
     text-transform: uppercase;
     color: #F2EEE2;
+    text-align: center;
   }
   
   h2 {
