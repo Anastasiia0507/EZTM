@@ -92,22 +92,31 @@ li {
   border-radius: 4px;
 }
 
+/* cacher les listes déroulantes par défaut
+			 * et définir le positionnement absolute */
+
 .navbar_container2 ul ul {
   display: none;
   position: absolute;
   top: 100%;
 }
 
+/* afficher la liste déroulante au hover */
+
 .navbar_container2 ul li:hover > ul {
   display: inherit;
 }
 
+/* premier niveau de la liste déroulante */
+
 .navbar_container2 ul ul li {
   min-width: 170px;
-  float: none;
   display: list-item;
   position: relative;
 }
+
+
+
 
 /*
 .navbar_container3 {
