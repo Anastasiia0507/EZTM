@@ -1,3 +1,39 @@
+<?php
+require "config.php";
+
+if (!empty($_POST)) {
+    if  (isset($_POST["prenom"]) && isset($_POST["nom"]) && isset($_POST["email"]) && isset($_POST["entreprise"]) && isset($_POST["tel"]) && isset($_POST["message"]) && isset($_POST["dispo"]) && isset($_POST["rappel"])){
+
+
+
+$prenom = sanitize($_POST["prenom"]);
+$nom = sanitize($_POST["nom"]);
+$email = sanitize($_POST["email"]);
+$entreprise = sanitize($_POST["entreprise"]);
+$tel = sanitize($_POST["tel"]);
+$message = sanitize($_POST["message"]);
+$dispo = sanitize($_POST["dispo"]);
+$rappel = sanitize($_POST["rappel"]);
+
+$sql = "INSERT INTO demande_demo (prenom,nom,email,entreprise,tel,message,dispo,rappel) VALUE (:prenom, :nom, :email, :entreprise, :tel, :message, :dispo, :rappel)";
+
+$query = $conn->prepare($sql);
+
+$query->bindParam(":prenom",$prenom,PDO::PARAM_STR);
+$query->bindParam(":nom",$nom,PDO::PARAM_STR);
+$query->bindParam(":email",$email,PDO::PARAM_STR);
+$query->bindParam(":entreprise",$entreprise,PDO::PARAM_STR);
+$query->bindParam(":tel",$tel,PDO::PARAM_STR);
+$query->bindParam(":message",$message,PDO::PARAM_STR);
+$query->bindParam(":dispo",$dispo,PDO::PARAM_STR);
+$query->bindParam(":rappel",$rappel,PDO::PARAM_STR);
+
+$query->execute();
+
+    }
+}
+
+?>
 <!DOCTYPE html>
 <html lang="fr">
 <head>
