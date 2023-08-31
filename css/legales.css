@@ -10,11 +10,17 @@
     list-style: none;
     box-sizing: border-box;
     font-family: "Montserrat";
+    scroll-behavior:smooth;
+  }
+
+  .jaune {
+    color: #FDD100;
   }
   
   h1 {
     text-transform: uppercase;
     color: #F2EEE2;
+    text-align: center;
   }
   
   h2 {
@@ -103,7 +109,7 @@
   }
   
   .h_ml {
-    text-align: center;
+    
     text-transform: uppercase;
   }
   
@@ -112,5 +118,24 @@
     width: 1394px;
     margin-top: 40px;
   }
+
+  #blur {
+    width: 215px;
+    height: 215px;
+    position: absolute;
+    right: 10px;
+    background-color: #FDD100;
+    filter: blur(150px);
+  }
+  
+  #blur2 {
+      width: 215px;
+      height: 215px;
+      position: relative;
+      left: 10px;
+      margin-top: 160px;
+      background-color: #FDD100;
+      filter: blur(150px);
+    }
   
   /* Mentions legales CSS - fin */
