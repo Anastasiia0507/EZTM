@@ -746,9 +746,10 @@ textarea {
   margin-left: 120px;
   margin-top: 120px;
 }
-
-a {
-  color: #F2EEE2;
+.footer_titre{
+  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 a:hover {
@@ -846,7 +847,26 @@ a:hover {
   
 
 }
-
+.footer_container{
+  /* position: absolute; */
+  justify-content: center;
+  align-items: center;
+}
+.first{
+  width: 81.4375rem;
+  height: 1.875rem;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  
+}
+.second{
+  display: flex;
+  width: 15.375rem;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
 
 .select_container { 
 display: flex;
