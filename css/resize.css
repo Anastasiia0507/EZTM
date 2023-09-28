@@ -1,0 +1,91 @@
+/* Styles pour les écrans de tablette (largeur maximale de 768px) */
+@media screen and (max-width: 768px) {
+    .header_nav {
+        background-size: cover;
+        height: auto; /* Ajustez la hauteur automatiquement */
+        padding: 20px; /* Ajustez la marge intérieure pour les tablettes */
+    }
+    .navbar {
+        display: block; /* Réglez la navigation en mode bloc */
+        text-align: center; /* Centrez le contenu de la barre de navigation */
+        gap: 0; /* Supprimez l'espacement entre les éléments */
+        margin-top: 20px; /* Ajustez la marge supérieure */
+    }
+    .navbar_container {
+        gap: 20px; /* Ajoutez un espacement entre les éléments */
+        text-align: center; /* Centrez le texte dans la navigation */
+        margin-top: 20px; /* Ajustez la marge supérieure */
+    }
+    .menu {
+        flex-direction: column; /* Empilez les éléments verticalement */
+        text-align: center; /* Centrez le texte dans la navigation */
+    }
+    li {
+        margin: 0; /* Réinitialisez la marge des éléments de menu */
+        margin-top: 10px; /* Ajoutez un espacement entre les éléments de menu */
+    }
+    .navbar_container2 {
+        display: none; /* Masquez la liste des langues pour économiser de l'espace */
+    }
+    #demo_btn {
+        margin-top: 20px; /* Ajoutez un espacement sous le bouton "DEMO" */
+    }
+    .header {
+        margin-left: 0; /* Réinitialisez la marge gauche */
+    }
+    .header_titre {
+        font-size: 36px; /* Réduisez la taille de la police */
+        width: auto; /* Réinitialisez la largeur */
+    }
+    .header_p {
+        font-size: 20px; /* Réduisez la taille de la police */
+        width: auto; /* Réinitialisez la largeur */
+    }
+    .header_button {
+        font-size: 20px; /* Réduisez la taille de la police */
+        padding: 8px 20px; /* Réduisez le rembourrage du bouton */
+    }
+    .titre_main {
+        font-size: 36px; /* Réduisez la taille de la police */
+        margin-top: 80px; /* Ajustez la marge supérieure */
+        margin-bottom: 40px; /* Ajustez la marge inférieure */
+    }
+}
+
+/* Styles pour les écrans de mobile (largeur maximale de 480px) */
+@media screen and (max-width: 480px) {
+    .header_nav {
+        padding: 10px; /* Ajustez la marge intérieure pour les mobiles */
+    }
+    .navbar {
+        gap: 10px; /* Ajustez l'espacement entre les éléments */
+    }
+    .navbar_container {
+        gap: 10px; /* Ajustez l'espacement entre les éléments */
+    }
+    .menu {
+        font-size: 18px; /* Réduisez la taille de la police */
+    }
+    li {
+        margin-top: 5px; /* Ajustez l'espacement entre les éléments de menu */
+    }
+    #demo_btn {
+        margin-top: 10px; /* Ajoutez un espacement sous le bouton "DEMO" */
+        font-size: 18px; /* Réduisez la taille de la police */
+    }
+    .header_titre {
+        font-size: 28px; /* Réduisez la taille de la police */
+    }
+    .header_p {
+        font-size: 16px; /* Réduisez la taille de la police */
+    }
+    .header_button {
+        font-size: 18px; /* Réduisez la taille de la police */
+        padding: 8px 16px; /* Réduisez le rembourrage du bouton */
+    }
+    .titre_main {
+        font-size: 28px; /* Réduisez la taille de la police */
+        margin-top: 40px; /* Ajustez la marge supérieure */
+        margin-bottom: 20px; /* Ajustez la marge inférieure */
+    }
+}
